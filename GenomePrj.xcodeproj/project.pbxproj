@@ -8,20 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		492134E31FB4B8F700301432 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492134E21FB4B8F700301432 /* AppDelegate.swift */; };
-		492134E51FB4B8F700301432 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492134E41FB4B8F700301432 /* ViewController.swift */; };
 		492134E81FB4B8F700301432 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 492134E61FB4B8F700301432 /* Main.storyboard */; };
 		492134EA1FB4B8F700301432 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 492134E91FB4B8F700301432 /* Assets.xcassets */; };
 		492134ED1FB4B8F700301432 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 492134EB1FB4B8F700301432 /* LaunchScreen.storyboard */; };
+		492134F71FB4B93D00301432 /* PreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492134F41FB4B93D00301432 /* PreviewView.swift */; };
+		492134F81FB4B93D00301432 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492134F51FB4B93D00301432 /* CameraViewController.swift */; };
+		492134F91FB4B93D00301432 /* PhotoCaptureDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492134F61FB4B93D00301432 /* PhotoCaptureDelegate.swift */; };
+		492134FB1FB4C27400301432 /* MainCameraVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492134FA1FB4C27400301432 /* MainCameraVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		492134DF1FB4B8F700301432 /* GenomePrj.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GenomePrj.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		492134E21FB4B8F700301432 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		492134E41FB4B8F700301432 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		492134E71FB4B8F700301432 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		492134E91FB4B8F700301432 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		492134EC1FB4B8F700301432 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		492134EE1FB4B8F700301432 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		492134F41FB4B93D00301432 /* PreviewView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreviewView.swift; sourceTree = "<group>"; };
+		492134F51FB4B93D00301432 /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		492134F61FB4B93D00301432 /* PhotoCaptureDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCaptureDelegate.swift; sourceTree = "<group>"; };
+		492134FA1FB4C27400301432 /* MainCameraVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCameraVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +60,11 @@
 		492134E11FB4B8F700301432 /* GenomePrj */ = {
 			isa = PBXGroup;
 			children = (
+				492134F51FB4B93D00301432 /* CameraViewController.swift */,
+				492134F61FB4B93D00301432 /* PhotoCaptureDelegate.swift */,
+				492134F41FB4B93D00301432 /* PreviewView.swift */,
 				492134E21FB4B8F700301432 /* AppDelegate.swift */,
-				492134E41FB4B8F700301432 /* ViewController.swift */,
+				492134FA1FB4C27400301432 /* MainCameraVC.swift */,
 				492134E61FB4B8F700301432 /* Main.storyboard */,
 				492134E91FB4B8F700301432 /* Assets.xcassets */,
 				492134EB1FB4B8F700301432 /* LaunchScreen.storyboard */,
@@ -136,8 +145,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				492134E51FB4B8F700301432 /* ViewController.swift in Sources */,
+				492134FB1FB4C27400301432 /* MainCameraVC.swift in Sources */,
+				492134F81FB4B93D00301432 /* CameraViewController.swift in Sources */,
 				492134E31FB4B8F700301432 /* AppDelegate.swift in Sources */,
+				492134F91FB4B93D00301432 /* PhotoCaptureDelegate.swift in Sources */,
+				492134F71FB4B93D00301432 /* PreviewView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
